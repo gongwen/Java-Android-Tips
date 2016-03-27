@@ -4,7 +4,7 @@
 
 2.[使用泛型方法代替findViewById](http://blog.chengyunfeng.com/?p=541)
 
-  public final <E extends View> E getView(int id) {
+  public final <E extends View> E getView(int id) {   
         try {
         
             return (E) findViewById(id);
